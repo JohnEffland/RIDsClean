@@ -1,0 +1,325 @@
+/*
+	2008-10-06 jee added Version
+	2009-03-18 jee updated to include ";" at the end of each group (the style sometimes is hidden if that's forgotten.)
+	2009-03-31 jee changed font from Verdana to Arial because Verdana looks horrible in Firefox 
+	2009-11-13 jee changed titlerow
+	2009-11-13 jee added titletext
+*/
+
+/* the order of these href's is important */
+a {font-family: verdana, Georgia, serif; font-size: 11pt;}
+a:link {color:blue;}
+a:visited {color: blue;}
+a:hover {text-decoration: underline; color: #ff9900; font-weight: bold; font-size: 12pt;}
+a:active {color: red; text-decoration: none}
+a.big {font-weight: bold; font-size: 14pt;}
+
+body {
+	font-family: Arial, Helvetica, sans-serif; 
+	color: black;
+	font-size: 11pt;
+	background-color: white;
+}
+
+H2 {
+	font-size: 14pt;
+	font-weight: bold;
+}
+	
+H3 {
+	font-family: helvetica; 
+}
+
+SW_VERSION
+{
+	font-family: Arial, Helvetica, sans-serif; 
+	color: black;
+	font-size: 6pt;
+}
+
+TEXTAREA 
+{
+	/* background-color: white; */
+	border: black 1px solid;
+	color: black;
+	background: #efefef;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 9pt;
+	font-weight: normal;
+}
+
+SELECT 
+{ 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10pt;
+	font-weight: normal;
+	background-color: white;
+	border: gray; 
+	border-style: solid; 
+	border-top-width: 1px; 
+	border-right-width: 1px; 
+	border-bottom-width: 1px; 
+	border-left-width: 1px;
+}
+
+/* this is for the main select box on the home page */
+.guidelinks { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11pt;
+	font-weight: bold;
+	background-color: white;
+	border: black; 
+	border-style: solid; 
+	border-top-width: 1px; 
+	border-right-width: 1px; 
+	border-bottom-width: 1px; 
+	border-left-width: 1px;
+} 
+
+/* tables */
+/* table containing header information for RIDs page */
+table#tableHeader {
+	background-color: white;
+	border-width: 0px;
+	border-color: gray;
+	border-style: outset;
+	vertical-align: middle;
+	width: 100%;
+	padding: 3px;
+}
+
+table#tableHeader td{
+	background-color: white;
+	border-width: 0px;
+	border-color: gray;
+	border-style: outset;
+	vertical-align: middle;
+	/*text-align: center;*/
+	padding: 3px;
+}
+
+.eright {
+	text-align: right;
+}
+
+.eleft {
+	text-align: left;
+}
+
+.ecenter {
+	text-align: center;
+}
+
+table#tableRIDs {
+	background-color: white;
+	border-width: 1px;
+	border-color: gray;
+	border-style: outset;
+	vertical-align: middle;
+	width: 100%;
+	padding: 3px;
+}
+
+ table#tableRIDs td{
+	padding: 1px;
+	border-width: 1px;
+	border-color: grey;
+	border-style: inset;
+}
+
+.projRow {
+	background-color: yellow;
+	font-weight: bold;
+}
+
+.headerRow {
+	text-align: center;
+	padding: 3px;
+	font-weight: bold;
+	border-width: 1px;
+	border-color: gray;
+	border-style: inset;
+}
+
+.titleRow{
+	/*text-align: center;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11pt;
+	font-weight: bold;
+	border-width: 0px;
+	padding: 1px;
+}
+
+.titletext{
+	/*text-align: center;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 14pt;
+	font-weight: bold;
+	border-width: 0px;
+	padding: 1px;
+}
+
+.RIDRow {
+	border: solid #000 1px;
+}
+
+.RIDNum {
+	text-align: center;
+	font-weight: normal;
+	border-width: 1px;
+	padding: 2px;
+}
+
+.RIDAddButton {
+	text-align: center;
+}
+
+.RIXType {
+	text-align: center;
+}
+
+.MajorRID {
+	text-align: center;
+}
+
+.respName {
+	text-align: center;
+}
+
+.RIDDate {
+	text-align: center;
+	font-size: 9pt;
+}
+
+.bottomNormal{
+	text-align: center;
+	font-weight: normal;
+}
+
+/* this holds styles for Notes input screen */
+table#tblNotesInput {
+	background-color: white;
+	border-width: 1px;
+	border-color: gray;
+	border-style: none;
+	width: 100%;
+	padding: 3px;
+}
+
+table#tblNotesInput td{
+	padding: 3px;
+	border-width: 1px;
+	border-color: gray;
+	border-style: none;
+	vertical-align: middle;
+}
+
+.colLabel {
+	text-align: right;
+	width: 20%;
+}
+
+.colInputFields {
+	text-align: left;
+	width: 80%;
+}
+
+table#tblRIDs2 td {
+	padding: 5px;
+	border: solid #000 1px;
+}
+.data {
+	color: #000000;
+	text-align: right;
+	background-color: #CCCCCC;
+}
+.toprow {
+	font-style: italic;
+	text-align: center;
+	background-color: #FFFFCC;
+}
+.leftcol {
+	font-weight: bold;
+	text-align: left;
+	width: 150px;
+	background-color: #CCCCCC;
+}
+
+
+th {
+	font: bold 11px Verdana, Arial, Helvetica;
+	color: gray;
+	font-size: 11pt;
+	/*border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;*/
+	/*letter-spacing: 2px;*/
+	/*text-transform: uppercase;*/
+	text-align: center;
+	padding: 6px 6px 6px 12px;
+	background: none;
+}
+
+th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+}
+
+td {
+	/*border-right: 1px solid black;
+	border-bottom: 1px solid black;*/
+	/* text-align: left; */
+	font-size: 11pt;
+	background: #fff;
+	padding: 1px 1px 1px 1px;
+	color: black;
+}
+
+
+td.alt {
+	background: #F5FAFA;
+	color: black;
+}
+
+td.blockheading {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: black;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+/* can't make this work in IE 6!! */
+SmallErr {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: red;
+	font-size: 10pt;
+}
+
+/* this word works in IE6! (but bigr doesn't */
+big {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 	
+	color: red;	
+	font-size: 8pt;
+}
+
+small {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: black;
+	font-size: 8pt;
+}
+
+TINY {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: black;
+	font-size: 6pt;
+}
+
+errtag {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: red;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
